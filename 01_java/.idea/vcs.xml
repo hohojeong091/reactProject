@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/workspace/chap02-operator-kecture-source" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/workspace/chap03-method-and-api-lecture-sourse" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/workspace/chap03-method-and-api-practice" vcs="Git" />
+  </component>
+</project>
