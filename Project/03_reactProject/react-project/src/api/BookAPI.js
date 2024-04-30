@@ -9,7 +9,7 @@ const API_ID ='25fBNFQqQLezKlXG9Ydv'
 const API_SECRET = 'tGNjmflA3q'
 
 export async function getBookList(keyword) {
-    const url = `${BASE_URL}.json?query=${keyword}`
+    const url = `${BASE_URL}.json?query=${keyword}`;
 
     const response = await fetch(url,{
         headers : {
@@ -24,11 +24,15 @@ export async function getBookList(keyword) {
 
     return data.items;
 
-
-
-
-
-
 }
 
+/* 상세 책 조회 */
+export async function getBookDetail(title) {
+    const url = `${BASE_URL}_adv.json?query=${keyword}`;
+    const response = await fetch(url);
+    const data = await response.json();
+
+    return data.items;
+
+}
 
