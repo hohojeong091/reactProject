@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
-import {useNavigate} from "react-router-dom";
+import {useNavigate, useParams} from "react-router-dom";
 
-function BookDetail() {
+function BookDetail({book}) {
     const {title} = useParams;
 
     const [book, setBook] = useState();
